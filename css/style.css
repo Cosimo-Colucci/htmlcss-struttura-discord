@@ -17,7 +17,8 @@
 
   header{
     background-color: lawngreen;
-    margin: 1rem 10rem;
+    margin: auto;
+    width: 80%;
     padding: 1rem;
   }
 
@@ -37,5 +38,14 @@ ul {
 
 section.header-foulder{
     background-color: blue;
-    height: 200px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+div.pink-box{
+    background-color: pink;
+    align-self: center;
+    height: 400px;
+    width: 1200px;
 }
