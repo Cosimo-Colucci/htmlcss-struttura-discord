@@ -36,16 +36,33 @@ ul {
   justify-content: space-around;
 } 
 
-section.header-foulder{
-    background-color: blue;
+section{
     height: 600px;
     display: flex;
     justify-content: center;
+}
+section.container-blue{
+    background-color: blue;
 }
 
 div.pink-box{
     background-color: pink;
     align-self: center;
-    height: 400px;
+    height: 75%;
     width: 70%;
+}
+
+section.white{
+    background-color: white;
+    height: 100%;
+}
+
+div.lightblue{
+    background-color: lightblue;
+    height: 100%;
+    width: 70%;
+}
+
+div.pink{
+    background-color: pink
 }
